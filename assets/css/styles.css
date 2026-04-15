@@ -826,6 +826,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  justify-items: center;
 }
 
 @media screen and (max-width: 568px) {

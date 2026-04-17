@@ -146,6 +146,11 @@ img {
   text-align: center;
 }
 
+.three_column_container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 768px;
@@ -713,8 +718,18 @@ img {
 
 
 .business_analysis_feat_work_cards_container {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+}
+
+.backend__context .section__subtitle {
+  margin-bottom: 1rem;
+}
+
+.backend__button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
 
 /*==================== PROJECT IN MIND ====================*/
@@ -1204,5 +1219,13 @@ img {
 
   .business_analysis_feat_work_cards_container {
     grid-template-columns: 1fr;
+  }
+
+  .three_column_container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__content--wide {
+    grid-column: auto;
   }
 }

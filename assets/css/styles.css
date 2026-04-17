@@ -644,6 +644,10 @@ img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+.portfolio__content--wide {
+  grid-column: 1 / -1;
+}
+
 .portfolio__data {
   display: flex;
   flex-direction: column;

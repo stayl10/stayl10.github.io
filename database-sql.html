@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+    <!--==================== SWIPER CSS====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portfolio Website - Database & SQL</title>
+</head>
+<body>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">Spencer</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="index.html#home" class="nav__link">
+                        <i class="uil uil-estate nav__icon"></i> Home
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#about" class="nav__link">
+                        <i class="uil uil-user nav__icon"></i> About
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#skills" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> Skills
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#portfolio" class="nav__link">
+                        <i class="uil uil-code-branch nav__icon"></i> Projects
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#contact" class="nav__link">
+                        <i class="uil uil-message nav__icon"></i> Contact
+                    </a>
+                </li>
+            </ul>
+
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <section class="about section">
+        <h2 class="section__title">Database Design & SQL</h2>
+        <span class="section__subtitle">Schema design, data structure, and query examples</span>
+
+        <div class="container">
+            <div class="about__data">
+                <p class="about__description">
+                    This section highlights work related to database design, schema structure, and SQL. It includes an entity relationship view of a system, supporting database definitions, and example SQL queries that demonstrate practical querying and data retrieval.
+                </p>
+
+                <p class="about__description">
+                    The database design work focuses on how data is organized to support business operations, while the SQL examples show how that data can be accessed, filtered, and analyzed through structured queries.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio section">
+        <h2 class="section__title">Featured Work</h2>
+        <span class="section__subtitle">Database and SQL examples</span>
+
+        <div class="three_column_container container grid">
+
+            <div class="portfolio__content">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">ERD / Database Diagram</h3>
+                    <p class="portfolio__description">
+                        A system class diagram for Pets4Life Louisville showing the structure of pages, forms, payments, chatbot interaction, and administrative components.
+                    </p>
+                    <a href="assets/img/class_diagram.png" target="_blank" class="button button--flex button--small portfolio__button">
+                        View Diagram
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio__content">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Database Definitions</h3>
+                    <p class="portfolio__description">
+                        Supporting database documentation including table definitions, attributes, keys, and narrative explanation of the schema design.
+                    </p>
+                    <a href="assets/pdf/I5.pdf" target="_blank" class="button button--flex button--small portfolio__button">
+                        View Document
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio__content">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">SQL Examples</h3>
+                    <p class="portfolio__description">
+                        Example SQL queries demonstrating selection, filtering, subqueries, grouping, sorting, and query refinement in a business database context.
+                    </p>
+                    <a href="assets/pdf/CIS_310_SQL_Excerpt.pdf" target="_blank" class="button button--flex button--small portfolio__button">
+                        View SQL Work
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<a href="#" class="scrollup" id="scroll-top">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

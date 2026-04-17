@@ -146,6 +146,11 @@ img {
   text-align: center;
 }
 
+.three_column_container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 768px;
@@ -633,7 +638,7 @@ img {
 }
 
 .portfolio__container {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -642,6 +647,10 @@ img {
   padding: 1.5rem;
   border-radius: .75rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio__content--wide {
+  grid-column: 1 / -1;
 }
 
 .portfolio__data {
@@ -705,6 +714,22 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
+}
+
+
+.business_analysis_feat_work_cards_container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.backend__context .section__subtitle {
+  margin-bottom: 1rem;
+}
+
+.backend__button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
 
 /*==================== PROJECT IN MIND ====================*/
@@ -1190,5 +1215,17 @@ img {
 @media screen and (max-width: 768px) {
   .portfolio__container {
     grid-template-columns: 1fr;
+  }
+
+  .business_analysis_feat_work_cards_container {
+    grid-template-columns: 1fr;
+  }
+
+  .three_column_container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__content--wide {
+    grid-column: auto;
   }
 }
